@@ -9,11 +9,10 @@ const serverOptions = {
     HTTPS: devEnv[1].match(/true|false/)[0]
 };
 
-
 const devEnvLocal = fs.readFileSync(".env.development.local").toString().split("\n");
 const httpsOptions = {
-    cert: fs.readFileSync(devEnvLocal[0].match(/C:\\.*$/)[0]),
-    key: fs.readFileSync(devEnvLocal[1].match(/C:\\.*$/)[0])
+    cert: fs.readFileSync(devEnvLocal[0].match(/C:\\.*\.pem/)[0]),
+    key: fs.readFileSync(devEnvLocal[1].match(/C:\\.*\.key/)[0])
 };
 
 const target = process.env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${process.env.ASPNETCORE_HTTPS_PORT}` :
