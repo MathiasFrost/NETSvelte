@@ -15,6 +15,23 @@
     "type": "project"
   },
   "sourceName": "NETSvelte",
+  "sources": [
+    {
+      "exclude": [
+        "**/.idea/**",
+        "**/obj/**",
+        "**/bin/**",
+        "**/node_modules/**",
+        "**/build/**",
+        "**/README.md",
+        "**/LICENSE",
+        "**/.template.config/**",
+        "**/.git/**",
+        "**/package-lock.json",
+        "**/*.DotSettings.user"
+      ]
+    }
+  ],
   "symbols": {
     "Framework": {
       "type": "parameter",
