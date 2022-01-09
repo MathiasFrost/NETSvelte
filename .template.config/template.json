@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/template",
+  "author": "Mathias Løken",
+  "classifications": [
+    "Web",
+    "MVC",
+    "SPA"
+  ],
+  "description": ".NET server with Svelte client",
+  "identity": "ASP.NETCoreWebApplication",
+  "name": "ASP.NET Core with Svelte",
+  "shortName": "svelte",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NETSvelte",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net6.0"
+        }
+      ],
+      "defaultValue": "net6.0"
+    }
+  }
+}
