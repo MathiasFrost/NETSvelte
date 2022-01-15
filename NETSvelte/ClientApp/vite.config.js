@@ -40,6 +40,7 @@ const config = defineConfig({
             "$components": path.resolve("./src/components"),
             "$models": path.resolve("./src/models"),
             "$services": path.resolve("./src/services"),
+            "$helpers": path.resolve("./src/helpers"),
             "$pages": path.resolve("./src/pages"),
             "$root": path.resolve("./src"),
             "$public": path.resolve("./public"),

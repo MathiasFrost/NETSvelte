@@ -13,6 +13,9 @@
       "$services/*": [
         "./src/services/*"
       ],
+      "$helpers/*": [
+        "./src/helpers/*"
+      ],
       "$pages/*": [
         "./src/pages/*"
       ],

@@ -1,8 +1,12 @@
 <script lang="ts">
     import {onMount} from "svelte";
     import SomeComponent from "$components/SomeComponent.svelte";
-
-    onMount(() => {
+    
+    onMount(async () => {
+        const res = await fetch("/WeatherForecast", {
+            method: "GET"
+        });
+        console.log(res);
     });
 </script>
 
