@@ -5,7 +5,7 @@
     let forecasts: WeatherForecast[] = [];
 
     onMount(async () => {
-        const res = await fetch("/weatherforecast", {
+        const res = await fetch("/WeatherForecast", {
             method: "GET"
         });
         if (res.ok) forecasts = await res.json();

@@ -25,7 +25,7 @@ const config = defineConfig({
         port: serverOptions.PORT,
         https: httpsOptions,
         proxy: {
-            "/weatherforecast": {
+            "/WeatherForecast": {
                 target: target,
                 secure: false
             }
