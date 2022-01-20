@@ -4,6 +4,10 @@
     import NavMenu from "$lib/NavMenu.svelte";
 </script>
 
+<svelte:head>
+    <title>NETSvelte</title>
+</svelte:head>
+
 <NavMenu />
 
 <main class="container">
