@@ -230,3 +230,10 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# SvelteKit
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package

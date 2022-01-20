@@ -1,8 +1,7 @@
-// This script configures the .env.development.local file with additional environment variables to configure HTTPS using the ASP.NET Core
+﻿// This script configures the .env.development.local file with additional environment variables to configure HTTPS using the ASP.NET Core
 // development certificate in the webpack development proxy.
-
-const fs = require('fs');
-const path = require('path');
+import path from "path";
+import fs from "fs";
 
 const baseFolder =
     process.env.APPDATA !== undefined && process.env.APPDATA !== ''

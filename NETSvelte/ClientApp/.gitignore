@@ -1,18 +1,5 @@
-# node
+.DS_Store
 node_modules
-
-# WebStorm - remove this if you use WebStorm
-.idea
-
-# CA
-*.pem
-
-# local packages
-*.tgz
-**/dist/*.mjs
-**/dist/*.js
-**/dist/*.css
-# .d.ts files are written manually
-
-#local build
-build
+/build
+/.svelte-kit
+/package

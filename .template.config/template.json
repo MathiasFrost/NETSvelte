@@ -27,6 +27,8 @@
         "**/LICENSE",
         "**/.template.config/**",
         "**/.git/**",
+        "**/.svelte-kit/**",
+        "**/package/**",
         "**/package-lock.json",
         "**/*.DotSettings.user"
       ]
