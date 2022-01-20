@@ -1,5 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/template",
+  "name": "ASP.NET Core with Svelte",
+  "shortName": "svelte",
+  "identity": "ASP.NETCoreWebApplication",
   "author": "Mathias Løken",
   "classifications": [
     "Web",
@@ -7,9 +10,6 @@
     "SPA"
   ],
   "description": ".NET server with Svelte client",
-  "identity": "ASP.NETCoreWebApplication",
-  "name": "ASP.NET Core with Svelte",
-  "shortName": "svelte",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -25,6 +25,7 @@
         "**/build/**",
         "**/README.md",
         "**/LICENSE",
+        "**/.gitignore",
         "**/.template.config/**",
         "**/.git/**",
         "**/.svelte-kit/**",
