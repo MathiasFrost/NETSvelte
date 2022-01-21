@@ -13,7 +13,7 @@
     }
 
     onMount(() => {
-        collapse = new Collapse(container, { toggle: false });
+        collapse = new Collapse(container, {toggle: false});
     });
 </script>
 
@@ -27,14 +27,17 @@
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end" bind:this={container}>
                 <ul class="navbar-nav flex-grow">
-                    <li class="nav-item" class:link-active={$page.url.pathname === '/'}>
-                        <a class="nav-link text-dark" href="/">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"
+                           class:active={$page.url.pathname === '/'}>Home</a>
                     </li>
-                    <li class="nav-item" class:link-active={$page.url.pathname === '/counter'}>
-                        <a class="nav-link text-dark" href="/counter">Counter</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/counter"
+                           class:active={$page.url.pathname === '/counter'}>Counter</a>
                     </li>
-                    <li class="nav-item" class:link-active={$page.url.pathname === '/fetch-data'}>
-                        <a class="nav-link text-dark" href="/fetch-data">Fetch data</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/fetch-data"
+                           class:active={$page.url.pathname === '/fetch-data'}>Fetch data</a>
                     </li>
                 </ul>
             </div>

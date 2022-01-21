@@ -19,16 +19,16 @@
   "sources": [
     {
       "exclude": [
-        "**/.idea/**",
+        ".git/**",
+        ".idea/**",
+        "README.md",
+        "LICENSE",
+        ".gitignore",
+        ".template.config/**",
         "**/obj/**",
         "**/bin/**",
         "**/node_modules/**",
         "**/build/**",
-        "**/README.md",
-        "**/LICENSE",
-        "**/.gitignore",
-        "**/.template.config/**",
-        "**/.git/**",
         "**/.svelte-kit/**",
         "**/package/**",
         "**/package-lock.json",
