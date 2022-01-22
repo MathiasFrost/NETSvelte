@@ -3,7 +3,6 @@
   "name": "ASP.NET Core with Svelte",
   "shortName": "svelte",
   "identity": "MathiasFrost.NET.Templates.Svelte",
-  "groupIdentity": "MathiasFrost.NET.Templates",
   "author": "Mathias Løken",
   "classifications": [
     "Web",
