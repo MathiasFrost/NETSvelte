@@ -8,7 +8,7 @@
     </li>
     <li>
         <a href="https://svelte.dev/">Svelte</a> and
-        <a href="http://www.typescriptlang.org/">TypeScript</a> for client-side code
+        <a href="https://www.typescriptlang.org/">TypeScript</a> for client-side code
     </li>
     <li>
         <a href="https://getbootstrap.com/">Bootstrap</a> for layout and styling
