@@ -31,7 +31,8 @@
         "**/.svelte-kit/**",
         "**/package/**",
         "**/package-lock.json",
-        "**/*.DotSettings.user"
+        "**/*.DotSettings.user",
+        "**/.env.development.local"
       ]
     }
   ],
